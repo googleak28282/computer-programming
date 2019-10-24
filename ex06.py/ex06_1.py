@@ -6,7 +6,7 @@ def fib1(n):
 		elif i==1: fib.append(1)
 		else: fib.append(fib[-1]+fib[-2])
 	return fib[n]
-
+# recursion
 def fib2(n):
 	if n==0:return 0
 	elif n==1:return 1
